@@ -65,7 +65,7 @@ function Shamim() {
         } else {
             return `Your attendence missing`
         }
-        return grade;
+       
 
     }
 
