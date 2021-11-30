@@ -8,7 +8,7 @@ const devs = [
     
     ['Roton', 'Mern Stack', 30, 30000 ],
     
-    ['Saro', 'Laravel', 35, 35000 ],
+    ['Saro', 'Laravel', 3, 35000 ],
     
     ['Alamin', 'Java', 35, 40000 ],
 
@@ -19,6 +19,8 @@ const devs = [
 
 ]
 
+
+let totalAmount=0;
 for( let i=0; i < devs.length; i++ ){
     
   console.log(`
@@ -29,4 +31,8 @@ for( let i=0; i < devs.length; i++ ){
   
   `);
 
+  totalAmount = totalAmount+ devs[i][3]
+
 }
+
+console.log(` Total Taka = ${totalAmount} `);
