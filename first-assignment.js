@@ -8,7 +8,7 @@ const devs = [
     
     ['Roton', 'Mern Stack', 30, 30000 ],
     
-    ['Saro', 'Laravel', 32, 35000 ],
+    ['Saro', 'Laravel', 35, 35000 ],
     
     ['Alamin', 'Java', 35, 40000 ],
 
